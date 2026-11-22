@@ -1427,6 +1427,10 @@
 				<string>watchos</string>
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
+				<key>SUPPORTED_PLATFORMS</key>
+				<string>watchos watchsimulator</string>
+				<key>SUPPORTS_MACCATALYST</key>
+				<string>NO</string>
 				<key>SWIFT_OPTIMIZATION_LEVEL</key>
 				<string>-Onone</string>
 				<key>SWIFT_VERSION</key>
@@ -1472,6 +1476,10 @@
 				<string>watchos</string>
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
+				<key>SUPPORTED_PLATFORMS</key>
+				<string>watchos watchsimulator</string>
+				<key>SUPPORTS_MACCATALYST</key>
+				<string>NO</string>
 				<key>SWIFT_VERSION</key>
 				<string>5.0</string>
 				<key>TARGETED_DEVICE_FAMILY</key>
@@ -1515,6 +1523,10 @@
 				<string>watchos</string>
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
+				<key>SUPPORTED_PLATFORMS</key>
+				<string>watchos watchsimulator</string>
+				<key>SUPPORTS_MACCATALYST</key>
+				<string>NO</string>
 				<key>SWIFT_VERSION</key>
 				<string>5.0</string>
 				<key>TARGETED_DEVICE_FAMILY</key>
