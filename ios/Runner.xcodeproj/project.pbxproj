@@ -737,8 +737,8 @@
 				<string>97C146EB1CF9000F007C117D</string>
 				<string>97C146EC1CF9000F007C117D</string>
 				<string>9705A1C41CF9048500538489</string>
-				<string>3B06AD1E1E4923F5004D2608</string>
 				<string>A17010002B00000000000018</string>
+				<string>3B06AD1E1E4923F5004D2608</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
