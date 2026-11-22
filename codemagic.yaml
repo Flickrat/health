@@ -1,0 +1,56 @@
+workflows:
+  ios-watchos-testflight:
+    name: iOS + Apple Watch (TestFlight)
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+
+    integrations:
+      # Match the integration name configured in Codemagic > Teams > Integrations > App Store Connect
+      app_store_connect: codemagic
+
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        # Replace with your registered App Store Connect Bundle ID (and update
+        # PRODUCT_BUNDLE_IDENTIFIER in ios/Runner.xcodeproj + WKCompanionAppBundleIdentifier
+        # in ios/LynioWatch/Info.plist to match).
+        # Codemagic automatically signs both the iOS app and the embedded
+        # *.watchkitapp target when both App IDs exist in Apple Developer Portal.
+        bundle_identifier: com.OPANAS.ihealthfit
+      vars:
+        XCODE_WORKSPACE: "ios/Runner.xcworkspace"
+        XCODE_SCHEME: "Runner"
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+
+    scripts:
+      - name: Get Flutter packages
+        script: |
+          flutter pub get
+
+      - name: Install CocoaPods dependencies
+        script: |
+          find . -name "Podfile" -execdir pod install \;
+
+      - name: Set up code signing settings on Xcode project (iOS + LynioWatch)
+        script: |
+          xcode-project use-profiles
+
+      - name: Build IPA (embeds LynioWatch.app automatically)
+        script: |
+          BUILD_NUMBER=$(($(app-store-connect get-latest-testflight-build-number "$APP_STORE_CONNECT_APP_ID" 2>/dev/null || echo 135) + 1))
+          flutter build ipa --release \
+            --build-number="$BUILD_NUMBER" \
+            --export-options-plist=/Users/builder/export_options.plist
+
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - flutter_drive.log
+
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true
+        expire_build_submitted_for_review: true

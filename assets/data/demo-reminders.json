@@ -1,0 +1,16 @@
+{
+  "lists": [
+    { "id": "demo-groceries", "title": "Groceries", "source": "iCloud", "color": "FF9500" },
+    { "id": "demo-work", "title": "Work", "source": "iCloud", "color": "1BADF8" }
+  ],
+  "reminders": [
+    { "id": "report", "list": "demo-work", "title": "Send the weekly report", "day": -1, "time": 1020, "priority": 1, "created": -5 },
+    { "id": "milk", "list": "demo-groceries", "title": "Milk", "day": 0, "created": -2 },
+    { "id": "offsite", "list": "demo-work", "title": "Book the team offsite", "day": 0, "time": 900, "priority": 5, "created": -4 },
+    { "id": "slides", "list": "demo-work", "title": "Review the slides", "day": 1, "time": 600, "created": -3 },
+    { "id": "coffee", "list": "demo-groceries", "title": "Coffee beans", "day": 2, "created": -1 },
+    { "id": "parking", "list": "demo-work", "title": "Renew the parking permit", "day": 4, "priority": 9, "created": -6 },
+    { "id": "eggs", "list": "demo-groceries", "title": "Eggs", "created": -3 },
+    { "id": "oil", "list": "demo-groceries", "title": "Olive oil", "created": -1 }
+  ]
+}

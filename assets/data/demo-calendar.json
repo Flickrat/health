@@ -1,0 +1,16 @@
+{
+  "calendars": [
+    { "id": "demo-work", "title": "Work", "source": "iCloud", "color": "1BADF8" },
+    { "id": "demo-home", "title": "Home", "source": "iCloud", "color": "63DA38" }
+  ],
+  "events": [
+    { "id": "standup", "calendar": "demo-work", "title": "Team standup", "location": "Room 4B", "day": 0, "start": 540, "minutes": 15 },
+    { "id": "design", "calendar": "demo-work", "title": "Design review", "location": "Video call", "day": 0, "start": 780, "minutes": 60 },
+    { "id": "gym", "calendar": "demo-home", "title": "Gym", "location": "City Fitness", "day": 0, "start": 1080, "minutes": 60 },
+    { "id": "dinner", "calendar": "demo-home", "title": "Dinner with Sam", "location": "Luigi's", "day": 1, "start": 1170, "minutes": 90 },
+    { "id": "planning", "calendar": "demo-work", "title": "Sprint planning", "day": 1, "start": 600, "minutes": 90 },
+    { "id": "birthday", "calendar": "demo-home", "title": "Mia's birthday", "day": 2, "allDay": true, "days": 1 },
+    { "id": "dentist", "calendar": "demo-home", "title": "Dentist", "location": "Smile Clinic", "day": 3, "start": 510, "minutes": 45 },
+    { "id": "offsite", "calendar": "demo-work", "title": "Team offsite", "location": "Lakeside Lodge", "day": 5, "allDay": true, "days": 2 }
+  ]
+}

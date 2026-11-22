@@ -1,0 +1,858 @@
+{
+  "canvas": 450,
+  "faces": {
+    "activity": [
+      {
+        "id": 1,
+        "role": "steps",
+        "style": "ring",
+        "x": 14,
+        "y": 14,
+        "w": 422,
+        "h": 422
+      },
+      {
+        "id": 2,
+        "role": "battery",
+        "style": "ring",
+        "x": 49,
+        "y": 49,
+        "w": 352,
+        "h": 352
+      },
+      {
+        "id": 3,
+        "role": "heart_rate",
+        "style": "ring",
+        "x": 83,
+        "y": 83,
+        "w": 284,
+        "h": 284
+      }
+    ],
+    "bauhaus": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 65,
+        "y": 177,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 289,
+        "y": 177,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "blocks": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 196,
+        "y": 41,
+        "w": 88,
+        "h": 88
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 174,
+        "y": 341,
+        "w": 88,
+        "h": 88
+      }
+    ],
+    "blossom": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 65,
+        "y": 177,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 289,
+        "y": 177,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "botanical": [
+      {
+        "id": 3,
+        "role": "empty",
+        "style": "edge",
+        "start": 235,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      },
+      {
+        "id": 4,
+        "role": "empty",
+        "style": "edge",
+        "start": 55,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      }
+    ],
+    "calligraphy": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 126,
+        "y": 331,
+        "w": 88,
+        "h": 88
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 236,
+        "y": 331,
+        "w": 88,
+        "h": 88
+      }
+    ],
+    "cartograph": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 65,
+        "y": 177,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 289,
+        "y": 177,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "chronograph": [
+      {
+        "id": 1,
+        "role": "steps",
+        "style": "ring",
+        "x": 83,
+        "y": 169,
+        "w": 112,
+        "h": 112
+      },
+      {
+        "id": 2,
+        "role": "battery",
+        "style": "ring",
+        "x": 255,
+        "y": 169,
+        "w": 112,
+        "h": 112
+      }
+    ],
+    "dashboard": [
+      {
+        "id": 1,
+        "role": "battery",
+        "style": "text",
+        "x": 82,
+        "y": 198,
+        "w": 137,
+        "h": 92
+      },
+      {
+        "id": 2,
+        "role": "steps",
+        "style": "text",
+        "x": 231,
+        "y": 198,
+        "w": 137,
+        "h": 92
+      },
+      {
+        "id": 3,
+        "role": "heart_rate",
+        "style": "text",
+        "x": 82,
+        "y": 303,
+        "w": 137,
+        "h": 92
+      },
+      {
+        "id": 4,
+        "role": "goal",
+        "style": "ring",
+        "x": 231,
+        "y": 303,
+        "w": 137,
+        "h": 92
+      }
+    ],
+    "dive": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 96,
+        "y": 181,
+        "w": 88,
+        "h": 88
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 266,
+        "y": 181,
+        "w": 88,
+        "h": 88
+      }
+    ],
+    "dusk": [
+      {
+        "id": 1,
+        "role": "battery",
+        "style": "text",
+        "x": 61,
+        "y": 300,
+        "w": 109,
+        "h": 30
+      },
+      {
+        "id": 2,
+        "role": "steps",
+        "style": "text",
+        "x": 170,
+        "y": 300,
+        "w": 110,
+        "h": 30
+      },
+      {
+        "id": 3,
+        "role": "heart_rate",
+        "style": "text",
+        "x": 280,
+        "y": 300,
+        "w": 109,
+        "h": 30
+      }
+    ],
+    "field": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 181,
+        "y": 96,
+        "w": 88,
+        "h": 88
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 181,
+        "y": 266,
+        "w": 88,
+        "h": 88
+      }
+    ],
+    "flieger": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 98,
+        "y": 98,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 256,
+        "y": 98,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "flip": [
+      {
+        "id": 3,
+        "role": "empty",
+        "style": "edge",
+        "start": 235,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      },
+      {
+        "id": 4,
+        "role": "empty",
+        "style": "edge",
+        "start": 55,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      }
+    ],
+    "focus": [
+      {
+        "id": 1,
+        "role": "steps",
+        "style": "ring",
+        "x": 56,
+        "y": 56,
+        "w": 338,
+        "h": 338
+      },
+      {
+        "id": 3,
+        "role": "empty",
+        "style": "edge",
+        "start": 235,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      },
+      {
+        "id": 4,
+        "role": "empty",
+        "style": "edge",
+        "start": 55,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      }
+    ],
+    "forest": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 65,
+        "y": 177,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 289,
+        "y": 177,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "hicontrast": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 65,
+        "y": 177,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 289,
+        "y": 177,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "infograph": [
+      {
+        "id": 1,
+        "role": "battery",
+        "style": "ring",
+        "x": 10,
+        "y": 10,
+        "w": 430,
+        "h": 430
+      },
+      {
+        "id": 2,
+        "role": "steps",
+        "style": "text",
+        "x": 174,
+        "y": 311,
+        "w": 102,
+        "h": 29
+      },
+      {
+        "id": 3,
+        "role": "heart_rate",
+        "style": "text",
+        "x": 276,
+        "y": 311,
+        "w": 102,
+        "h": 29
+      }
+    ],
+    "koi": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 181,
+        "y": 81,
+        "w": 88,
+        "h": 88
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 181,
+        "y": 281,
+        "w": 88,
+        "h": 88
+      }
+    ],
+    "largetype": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 181,
+        "y": 56,
+        "w": 88,
+        "h": 88
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 181,
+        "y": 316,
+        "w": 88,
+        "h": 88
+      }
+    ],
+    "lcd": [
+      {
+        "id": 1,
+        "role": "steps",
+        "style": "text",
+        "x": 164,
+        "y": 300,
+        "w": 131,
+        "h": 24
+      },
+      {
+        "id": 2,
+        "role": "battery",
+        "style": "text",
+        "x": 295,
+        "y": 300,
+        "w": 102,
+        "h": 24
+      }
+    ],
+    "meridian": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 106,
+        "y": 181,
+        "w": 88,
+        "h": 88
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 256,
+        "y": 181,
+        "w": 88,
+        "h": 88
+      }
+    ],
+    "midnight": [
+      {
+        "id": 1,
+        "role": "battery",
+        "style": "text",
+        "x": 61,
+        "y": 300,
+        "w": 109,
+        "h": 30
+      },
+      {
+        "id": 2,
+        "role": "steps",
+        "style": "text",
+        "x": 170,
+        "y": 300,
+        "w": 110,
+        "h": 30
+      },
+      {
+        "id": 3,
+        "role": "heart_rate",
+        "style": "text",
+        "x": 280,
+        "y": 300,
+        "w": 109,
+        "h": 30
+      }
+    ],
+    "modular": [
+      {
+        "id": 1,
+        "role": "steps",
+        "style": "text",
+        "x": 78,
+        "y": 297,
+        "w": 294,
+        "h": 32
+      },
+      {
+        "id": 2,
+        "role": "battery",
+        "style": "text",
+        "x": 78,
+        "y": 342,
+        "w": 294,
+        "h": 32
+      }
+    ],
+    "monoink": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 65,
+        "y": 177,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 289,
+        "y": 177,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "moon": [
+      {
+        "id": 3,
+        "role": "empty",
+        "style": "edge",
+        "start": 235,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      },
+      {
+        "id": 4,
+        "role": "empty",
+        "style": "edge",
+        "start": 55,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      }
+    ],
+    "neon": [
+      {
+        "id": 3,
+        "role": "empty",
+        "style": "edge",
+        "start": 235,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      },
+      {
+        "id": 4,
+        "role": "empty",
+        "style": "edge",
+        "start": 55,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      }
+    ],
+    "nocturne": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 65,
+        "y": 177,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 289,
+        "y": 177,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "numerals": [
+      {
+        "id": 3,
+        "role": "empty",
+        "style": "edge",
+        "start": 235,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      },
+      {
+        "id": 4,
+        "role": "empty",
+        "style": "edge",
+        "start": 55,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      }
+    ],
+    "pal": [
+      {
+        "id": 1,
+        "role": "steps",
+        "style": "ring",
+        "x": 20,
+        "y": 20,
+        "w": 410,
+        "h": 410
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 44,
+        "y": 181,
+        "w": 88,
+        "h": 88
+      }
+    ],
+    "photoAnalog": [],
+    "photoBottom": [
+      {
+        "id": 3,
+        "role": "empty",
+        "style": "edge",
+        "start": 235,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      },
+      {
+        "id": 4,
+        "role": "empty",
+        "style": "edge",
+        "start": 55,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      }
+    ],
+    "photoCenter": [
+      {
+        "id": 3,
+        "role": "empty",
+        "style": "edge",
+        "start": 235,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      },
+      {
+        "id": 4,
+        "role": "empty",
+        "style": "edge",
+        "start": 55,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      }
+    ],
+    "photoTop": [
+      {
+        "id": 3,
+        "role": "empty",
+        "style": "edge",
+        "start": 235,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      },
+      {
+        "id": 4,
+        "role": "empty",
+        "style": "edge",
+        "start": 55,
+        "span": 70,
+        "rOut": 219,
+        "thickness": 46
+      }
+    ],
+    "pixel": [
+      {
+        "id": 1,
+        "role": "steps",
+        "style": "text",
+        "x": 151,
+        "y": 340,
+        "w": 148,
+        "h": 24
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 41,
+        "y": 181,
+        "w": 88,
+        "h": 88
+      }
+    ],
+    "pulse": [
+      {
+        "id": 1,
+        "role": "heart_rate",
+        "style": "text",
+        "x": 168,
+        "y": 297,
+        "w": 188,
+        "h": 63
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 181,
+        "y": 11,
+        "w": 88,
+        "h": 88
+      }
+    ],
+    "solar": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 51,
+        "y": 106,
+        "w": 88,
+        "h": 88
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 311,
+        "y": 106,
+        "w": 88,
+        "h": 88
+      }
+    ],
+    "terminal": [
+      {
+        "id": 1,
+        "role": "battery",
+        "style": "text",
+        "x": 82,
+        "y": 235,
+        "w": 307,
+        "h": 31
+      },
+      {
+        "id": 2,
+        "role": "steps",
+        "style": "text",
+        "x": 82,
+        "y": 276,
+        "w": 307,
+        "h": 31
+      },
+      {
+        "id": 3,
+        "role": "heart_rate",
+        "style": "text",
+        "x": 82,
+        "y": 317,
+        "w": 307,
+        "h": 31
+      }
+    ],
+    "typograph": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 66,
+        "y": 286,
+        "w": 88,
+        "h": 88
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 296,
+        "y": 286,
+        "w": 88,
+        "h": 88
+      }
+    ],
+    "world": [
+      {
+        "id": 1,
+        "role": "empty",
+        "style": "ring",
+        "x": 98,
+        "y": 98,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "id": 2,
+        "role": "empty",
+        "style": "ring",
+        "x": 256,
+        "y": 98,
+        "w": 96,
+        "h": 96
+      }
+    ]
+  }
+}
