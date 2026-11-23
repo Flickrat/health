@@ -18,6 +18,7 @@ workflows:
         # *.watchkitapp target when both App IDs exist in Apple Developer Portal.
         bundle_identifier: com.OPANAS.ihealthfit
       vars:
+        APP_STORE_CONNECT_APP_ID: "6838033754"
         XCODE_WORKSPACE: "ios/Runner.xcworkspace"
         XCODE_SCHEME: "Runner"
       flutter: stable
@@ -39,7 +40,10 @@ workflows:
 
       - name: Build IPA (embeds LynioWatch.app automatically)
         script: |
-          BUILD_NUMBER=$(($(app-store-connect get-latest-testflight-build-number "$APP_STORE_CONNECT_APP_ID" 2>/dev/null || echo 135) + 1))
+          LATEST_BUILD=$(app-store-connect get-latest-testflight-build-number "$APP_STORE_CONNECT_APP_ID" 2>/dev/null || echo 135)
+          BUILD_NUMBER=$((LATEST_BUILD + 1))
+          echo "Using build number: $BUILD_NUMBER"
+          cd ios && xcrun agvtool new-version -all "$BUILD_NUMBER" && cd ..
           flutter build ipa --release \
             --build-number="$BUILD_NUMBER" \
             --export-options-plist=/Users/builder/export_options.plist
