@@ -54,58 +54,6 @@ class SettingsScreen extends StatelessWidget {
     );
   }
 
-  void _showProPaywall(BuildContext context) {
-    showModalBottomSheet<void>(
-      context: context,
-      showDragHandle: true,
-      builder: (ctx) => SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.fromLTRB(24, 8, 24, 24),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  Icon(Icons.workspace_premium_rounded,
-                      size: 30, color: Theme.of(ctx).colorScheme.primary),
-                  const SizedBox(width: 10),
-                  const Text(
-                    'iHealthFit Pro',
-                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.w800),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 12),
-              const Text('• All 40 custom watch faces & unlimited presets'),
-              const SizedBox(height: 6),
-              const Text('• Full Health sync (Steps, Heart Rate, Sleep, Workouts)'),
-              const SizedBox(height: 6),
-              const Text('• Siri & Shortcuts voice automation'),
-              const SizedBox(height: 6),
-              const Text('• Wi-Fi Fast Transfer & Photo Watch Faces'),
-              const SizedBox(height: 20),
-              SizedBox(
-                width: double.infinity,
-                child: FilledButton(
-                  onPressed: () {
-                    controller.setProUnlocked(!controller.isPro);
-                    Navigator.of(ctx).pop();
-                  },
-                  child: Text(
-                    controller.isPro
-                        ? 'Disable Demo Pro Status'
-                        : 'Unlock Demo Pro Status',
-                  ),
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-
   void _showSiriShortcuts(BuildContext context) {
     const phrases = [
       '"Ring my watch with iHealthFit"',
@@ -167,34 +115,6 @@ class SettingsScreen extends StatelessWidget {
           body: ListView(
             padding: const EdgeInsets.fromLTRB(16, 4, 16, 28),
             children: [
-              // Pro Banner
-              Card(
-                color: Theme.of(context)
-                    .colorScheme
-                    .primary
-                    .withValues(alpha: 0.14),
-                child: ListTile(
-                  contentPadding: const EdgeInsets.all(16),
-                  leading: Icon(
-                    Icons.workspace_premium_rounded,
-                    size: 32,
-                    color: Theme.of(context).colorScheme.primary,
-                  ),
-                  title: Text(
-                    controller.isPro ? 'iHealthFit Pro Active' : 'Upgrade to iHealthFit Pro',
-                    style: const TextStyle(fontWeight: FontWeight.w800),
-                  ),
-                  subtitle: Text(
-                    controller.isPro
-                        ? 'All watch faces, presets & shortcuts unlocked'
-                        : 'Unlock all 40 watch faces, Health sync & Siri Shortcuts',
-                  ),
-                  trailing: const Icon(Icons.chevron_right_rounded),
-                  onTap: () => _showProPaywall(context),
-                ),
-              ),
-
-              const SizedBox(height: 16),
               const Text(
                 'Paired Watch',
                 style: TextStyle(fontSize: 15, fontWeight: FontWeight.w800),
